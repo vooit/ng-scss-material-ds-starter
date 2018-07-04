@@ -29,6 +29,12 @@
             "styles": [
               "src/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "./src",
+                "./folder/you/want/to/include"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
